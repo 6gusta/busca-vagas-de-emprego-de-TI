@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>busca-vagas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="static/tela-inicial.css">
+
+</head>
+
+<body>
+    <header id="arrumar">
+        <h1 id="titu">ENCONTRE SUA PRIMEIRA OPORTUNIDADE DE EMPREGO</h1>
+        <form id="form" method="GET">
+            <input id="busca" type="text" placeholder="digite o tipo de vaga" required>
+        </form>
+        
+        <div id="pcd" onclick="mudarCor(this)">
+          <p> vagas para PCD</p>
+        </div>
+        <div id="pcd1" onclick="mudarCor(this)">
+            <p>empregos temporários</p>
+        </div>
+        <div id="pcd2" onclick="mudarCor(this)">
+            <p> estágio e trainee</p>
+        </div>
+        
+        <div id="b2">
+            <button id="button">sair</button>
+        </div>
+        <div>
+            <p id="ajuda"><a href="ajuda.html"><b>AJUDA</b></a></p>
+            <div id="pontin"><i  id='ponto' class="material-symbols-outlined"><label for="ajuda">help</label></i></div>
+        </div>
+        <div id="pesquisa"><i class="material-symbols-outlined" id="tam">Search</i></div>
+        <div id="Rocket" >
+            <i class="material-symbols-outlined">Rocket</i>
+        </div>
+        <div id='flash'><i class="material-symbols-outlined" id="tam">Bolt</i></div>
+        <div id="udp" ><i class="material-symbols-outlined" id="tam">accessible</i></div>
+   
+        
+        </div>
+        <div id="cep">
+            <!-- Conteúdo do elemento cep -->
+            <span id="fecharDiv" onclick="fecharDiv()">X</span>
+            <div id="resultado">
+        
+         estagio ti 
+         <a href="https://www.catho.com.br/vagas/estagio-em-ti/brasilia-df/">https://www.catho.com.br/vagas/estagio-em-ti/brasilia-df/</a>
+         <a href="https://br.indeed.com/q-est%C3%A1gio-ti-vagas.html">https://br.indeed.com/q-est%C3%A1gio-ti-vagas.html</a>
+         <a href="https://www.nerdin.com.br/vagas">https://www.nerdin.com.br/vagas</a>
+         <a href="https://www.linkedin.com/jobs/analista-de-ti-vagas/">https://www.linkedin.com/jobs/analista-de-ti-vagas/</a>
+         <a href="https://www.infojobs.com.br/vagas-de-emprego-estagio+ti.aspx">https://www.infojobs.com.br/vagas-de-emprego-estagio+ti.aspx</a>
+         <a href="https://www.trabalhabrasil.com.br/vagas-empregos/estagio-ti">https://www.trabalhabrasil.com.br/vagas-empregos/estagio-ti</a>
+         <a href="https://www.glassdoor.com.br/Vaga/bras%C3%ADlia-est%C3%A1gio-ti-vagas-SRCH_IL.0,8_IC2494161_KO9,19.htm">https://www.glassdoor.com.br/Vaga/bras%C3%ADlia-est%C3%A1gio-ti-vagas-SRCH_IL.0,8_IC2494161_KO9,19.htm</a></div>
+         
+        </div>
+
+        <div id="nos">            
+          <p id="dm"> VAGAS MAIS EM ALTA </p>
+          <a href="https://www.catho.com.br/vagas/engenheiro-de-software/">engenheiro-de-software</a> <br>
+          <a href="https://www.glassdoor.com.br/Vaga/cientista-de-dados-vagas-SRCH_KO0,18.htm"> cientista-de-dados</a> <br>
+          <a href="https://www.vagas.com.br/vagas-de-%22analista%20de%20dados%22">analista de dados</a><br>
+          <a href="https://br.indeed.com/q-full-stack-junior-vagas.html"> -full-stack-junior</a><br>
+          <a href="https://www.geekhunter.com.br/vagas-back-end">desenvolvedor back-end</a><br>
+          <a href="https://www.linkedin.com/jobs/engenheiro-de-software-vagas/?currentJobId=3780632734&originalSubdomain=br">engenheiro-de-software</a> <br>
+          <a href="https://www.catho.com.br/vagas/devops/">devops</a><br>
+          <a href="https://programathor.com.br/jobs-machine-learning">machine-learning</a><br>
+          <a href="https://br.indeed.com/q-desenvolvedor-intelig%C3%AAncia-artificial-ia-vagas.html">desenvolvedor-inteligencia-artificial</a><br>
+          <a href="https://www.vagas.com.br/vagas-de-desenvolvedor-front-end">desenvolvedor-front-end</a><br>
+          <a href="https://www.vagas.com.br/vagas-de-designer-digital">vagas designer</a> <br>
+          <a href="https://www.linkedin.com/jobs/estagi%C3%A1rio-em-ti-suporte-t%C3%A9cnico-vagas/?currentJobId=3776035455&originalSubdomain=br">estagio TI </a>
+
+
+          
+          
+  
+           
+
+        </div>
+        <div id="perfil">
+            <span id="perfis" class="material-symbols-outlined">
+                account_circle
+                </span>
+            <p id="meu"> MEU PERFIL </p>
+          
+        </div>
+        <div id="not">
+            <p></p>
+            <span id="perfis" class="material-symbols-outlined">
+                Notifications
+                
+                </span>
+        </div>
+        <div id="ch">
+            <span id="perfis" class="material-symbols-outlined">
+                chat
+                </span>
+        </div>
+        <div id="mensagnse">
+            <p>MENSAGENS </p>
+            Bem-vindo às Mensagens <BR></BR>
+        Quando uma empresa entrar  <BR></BR>
+         contato com você, as mensagens <BR></BR>
+         serão  exibidas aqui. <BR></BR>
+     
+        <span id="fecharDiv" onclick="fecharDivs()">X</span>
+        </div>
+        <div id="notificações">
+            <p>NOTIFICAÇÕES </p>
+            Não há novas notificações no momento. <BR></BR>
+             Continue a verificar regularmente para atualizações futuras. <BR></BR>
+             Tenha um ótimo dia
+            <span id="fecharDiv" onclick="fecharDivss()">X</span>
+            <p></p>
+        </div>
+  
+
+    <script>
+       function mudarCor(elemento) {
+        elemento.classList.toggle('clicked');
+    }
+
+    function verificarEnter(event) {
+        if (event.key === 'Enter') {
+            handleMostrarResultado();
+        }
+    }
+
+    function fecharDiv() {
+        document.getElementById('cep').style.display = 'none';
+    }
+
+ function handleMostrarResultado() {
+    const termoPesquisa = document.getElementById('busca').value;
+
+    fetch(`/buscar?termo=${termoPesquisa}`)
+        .then(response => response.json())
+        .then(data => {
+            const resultadoDiv = document.getElementById('resultado');
+            resultadoDiv.innerHTML = ''; 
+
+            data.links.forEach(link => {
+                resultadoDiv.innerHTML += `<a href="${link}" target="_blank">${link}</a><br>`;
+            });
+
+            // Log para verificar a mudança de estilo
+            console.log("Antes de exibir a div 'cep': ", document.getElementById('cep').style.display);
+
+            // Garantir que a div #cep seja exibida
+            document.getElementById('cep').style.display = 'block';
+
+            // Log para verificar a mudança de estilo após tentar exibi-la
+            console.log("Depois de exibir a div 'cep': ", document.getElementById('cep').style.display);
+        })
+        .catch(error => {
+            console.error('Erro ao buscar links:', error);
+        });
+}
+
+// Função para fechar a div
+function fecharDiv() {
+    document.getElementById('cep').style.display = 'none';
+}
+function handleMostrarResultado() {
+    const termoPesquisa = document.getElementById('busca').value;
+
+    fetch(`/buscar?termo=${termoPesquisa}`)
+        .then(response => response.json())
+        .then(data => {
+            const resultadoDiv = document.getElementById('resultado');
+            resultadoDiv.innerHTML = ''; // Limpa o conteúdo anterior
+
+            data.links.forEach(link => {
+                resultadoDiv.innerHTML += `<a href="${link}" target="_blank">${link}</a><br>`;
+            });
+
+            // Exibe a div 'cep' com os links
+            document.getElementById('cep').style.display = 'block';
+        })
+        .catch(error => {
+            console.error('Erro ao buscar links:', error);
+        });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Adiciona um listener de submit para o formulário
+    document.getElementById('form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Evita o comportamento padrão do formulário
+
+        // Chama a função para mostrar os resultados
+        handleMostrarResultado();
+    });
+
+    // Outros códigos podem ser mantidos aqui, como o código para exibir/ocultar a div 'cep' ou qualquer outro código relevante.
+});
+
+
+
+
+
+    
+
+document.addEventListener("DOMContentLoaded", function() {
+    var botaoSair = document.getElementById('button'); // Corrigido para 'button'
+
+    botaoSair.addEventListener('click', function() {
+        // Redirecionar para a página desejada
+        window.location.href = '/';
+    });
+});
+document.getElementById('perfil').addEventListener('click', function() {
+    // Redirecionar para outra página HTML
+    window.location.href = 'perfil.html'; // Substitua pelo caminho correto da sua página HTML
+});
+function mudarCor(elemento) {
+        elemento.classList.toggle('clicked');
+    }
+
+document.getElementById('ch').addEventListener('click', function() {
+    document.getElementById('mensagnse').style.display = 'block';
+});
+
+// Função para fechar a div mensagnse
+function fecharDivs() {
+    document.getElementById('mensagnse').style.display = 'none';
+}
+document.getElementById('not').addEventListener('click', function() {
+    document.getElementById('notificações').style.display = 'block';
+});
+
+// Função para fechar a div mensagnse
+function fecharDivss() {
+    document.getElementById('notificações').style.display = 'none';
+}
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

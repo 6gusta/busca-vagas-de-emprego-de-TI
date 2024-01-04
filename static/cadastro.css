@@ -1,0 +1,151 @@
+#cadastro{
+    margin-left: 750px;
+ 
+    
+
+}
+
+.class{
+    height: 40px;
+
+}
+#azul{
+    
+    width: 700px;
+    height: 1550px
+    ;
+    background-color:  darkviolet;
+    margin-top: -1450px;
+    color: white;
+    font-size: 40px;
+}
+#b5{
+    color: white;
+    background-color: darkviolet;
+    width: 400px;
+    height: 90px;
+    margin-left: 130px;
+    border-radius: 20px;
+    margin-top: 150px;
+    border: 3px solid white;
+}
+#bemvindo{
+    margin-top: 20px;
+    padding-top: 100px;
+    margin-left: 130px;
+    font-size: 60px;
+}
+#acesse{
+    margin-left: 130px;
+    font-size: 50px;
+  
+}
+#blu{
+    color: blueviolet;
+    font-size: 30px;
+    margin-left: 250px;
+  
+}
+#ca{
+    margin-left: 300px;
+    font-size: 25px;
+    color: black;
+}
+
+
+#nome{
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+#email{
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+#senha{
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+#celular{
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+#endereço{
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+#CPF{
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+#d{
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+#nacionalidade{
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+#form{
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+#cursos{
+
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+#b6{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+}
+#confirm{
+    height: 40px;
+    width: 450px;
+    background-color: rgb(237, 233, 233);
+}
+.class p, #i, #ir, .i {
+    font-size: 25px;
+    margin-top: -10px;
+    
+    
+     /* Você pode ajustar o tamanho da fonte conforme necessário */
+}
+#ir{
+    margin-top: 10px;
+}
+#i{
+    margin-top: 10px;
+}
+#il{
+    margin-top: 10px;
+}
+#iw{
+    margin-top: 10px;
+}
+#iy{
+    margin-top: 10px;
+}
+#ix{
+    margin-top: 10px;
+}
+#in{
+    margin-top: 10px;
+}
+#im{
+    margin-top: 10px;
+}
+#ic{
+    margin-top: 10px;
+}
+#tudo{
+    margin-left: 190px;
+}
+#con{
+    font-size: 25px;
+}
+

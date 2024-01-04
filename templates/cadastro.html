@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="static/cadastro.css">
+</head>
+<body>
+    <div id="cadastro">
+        <p id="blu"> CRIE SUA CONTA </p>
+
+
+<div id="tudo">
+    
+                <div >
+                    <p class="i">
+                        nome
+                    </p>
+                    <form action=""><input id="nome"  class="class" type="text" required placeholder="digite seu nome completo"></form>
+                </div>
+                <div >
+                    <p id="i">email</p>
+                    <form action=""><input id="email"  class="class" type="email" required  placeholder="digite seu email"></form>
+                </div>
+                <p id="ir">  senha</p>
+               
+                    <form action=""><input id="senha" class="class" type="password" required placeholder="digite sua senha "></form>
+              
+           
+                 <div>
+                    <div >
+                        <p id="con"> confirme sua senha</p>
+                      <form action=""> <input id="confirm" type="password" placeholder="confirme sua senha "></form>
+                    </div>
+                    <p class="i" id="il">celular</p>
+                    <form action=""><input id="celular"  class="class"type="tel" placeholder="digite seu numero de celular "></form>
+                 </div>
+                 <div>
+                    <p class="i" id="iw">endereço</p>
+                    <form action=""><input id="endereço"  class="class"type="text" placeholder="digite seu endereço"></form>
+                 </div>
+                 <div>
+                    <p class="i" id="iy">CPF</p>
+                    <form action=""><input id="CPF" class="class"type="text" placeholder="digite seu CPF "></form>
+                 </div>
+                 <div>
+                    <p class="i" id="ix"> data de nascimento </p>
+                    <FORM><input id="d" class="class"type="text" placeholder="digite sua data de nascimento"></FORM>
+                 </div>
+                 <div>
+                    <p class="i" id="in">nacionalidade</p>
+                    <input id="nacionalidade" class="class" type="text" placeholder="digite sua nacionalidade">
+                 </div>
+                 <div>
+                    <p class="i" id="im">formação acedemica</p>
+                    <input id="form" class="class" type="text" placeholder="digite sua formação acedemica">
+                 </div>
+                 <div>
+                    <p class="i" id="ic">cursos</p>
+                    <input id="cursos"  class="class"type="text" placeholder="digite seus cursos ">
+                 </div>
+                 <div><button id="b6">cadastrar </button></div>
+                 </div>
+            </div>
+</div>
+    <div id="azul">
+        <p id="bemvindo"> BEM-VINDO </p>
+        <p id="acesse"> acesse sua conta agora mesmo </p>
+        <button id="b5">ENTRAR </button>
+        <script>
+const botao = document.getElementById('b6');
+
+botao.addEventListener('click', function() {
+    location.reload();
+
+    // Exibe o alerta imediatamente após o recarregamento da página
+    alert('Cadastro concluído! Você já pode acessar sua conta.');
+});
+document.addEventListener("DOMContentLoaded", function() {
+        var botaoCadastro = document.getElementById('b5');
+        
+        botaoCadastro.addEventListener('click', function() {
+            // Redirecionar para a página desejada
+            window.location.href = '/';
+        });
+    });
+    
+
+            
+          </script>
+    </div>
+</body>
+</html>
